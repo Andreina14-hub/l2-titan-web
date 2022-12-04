@@ -13,11 +13,11 @@ const Footer = () => {
     </footer>
   )
 }
-
-const HomePage = () => {
+function HomePage() {
   return (
-    <div className='wallpaper'></div>
+
     <div className='HomePage'>
+      <div className='wallpaper'></div>
       <section className='section homeSectionOne'>
         <div className='container'></div>
       </section>
