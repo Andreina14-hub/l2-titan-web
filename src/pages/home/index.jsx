@@ -16,6 +16,7 @@ const Footer = () => {
 
 const HomePage = () => {
   return (
+    <div className='wallpaper'></div>
     <div className='HomePage'>
       <section className='section homeSectionOne'>
         <div className='container'></div>

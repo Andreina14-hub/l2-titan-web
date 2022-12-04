@@ -7,7 +7,7 @@ body {
 overflow-x: hidden;
 }
 
-.homeSectionOne {
+.wallpaper{
 background-image: url('./../imgs/fondo1.jpg') ;
 background-position: center;
 background-size: cover;
@@ -19,34 +19,4 @@ top: 0;
 width: 100%;
 
 }
-@media screen and (max-width: 799px) {
-  .homepage {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 5rem 3rem;
-  }
-  .homeSectionOne{
-  margin-bottom: 3rem;
-  width: 100%;
-  }
-  }
-  @media screen and (min-width: 800px) {
-    .homepage {
-    align-items: center;
-    justify-content: space-around;
-    justify-content: space-evenly;
-    padding: 4rem;
-    }
-    .homeSectionOne {
-    flex-grow: 0;
-    flex-shrink: 0;
-    height: 20rem;
-    margin-left: 4rem;
-    order: 2;
-    width: 20rem;
-    }
-    .homeSectionTwo{
-    flex-grow: 1;
-    flex-shrink: 1;
-    }
+
