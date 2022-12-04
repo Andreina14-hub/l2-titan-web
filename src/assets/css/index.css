@@ -4,20 +4,49 @@ body {
     'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  ba
+overflow-x: hidden;
 }
 
 .homeSectionOne {
-background-image: url('./../imgs/fondo1.jpg');
-position: relative;
+background-image: url('./../imgs/fondo1.jpg') ;
+background-position: center;
+background-size: cover;
+position: fixed;
+display: block;
+height: 100%;
+left: 0;
+top: 0;
+width: 100%;
+
 }
-
-
-/* .homeSectionOne {
-  background-image: url('./../imgs/fondo1.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #464646;
-} */
+@media screen and (max-width: 799px) {
+  .homepage {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 3rem;
+  }
+  .homeSectionOne{
+  margin-bottom: 3rem;
+  width: 100%;
+  }
+  }
+  @media screen and (min-width: 800px) {
+    .homepage {
+    align-items: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 4rem;
+    }
+    .homeSectionOne {
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 20rem;
+    margin-left: 4rem;
+    order: 2;
+    width: 20rem;
+    }
+    .homeSectionTwo{
+    flex-grow: 1;
+    flex-shrink: 1;
+    }
