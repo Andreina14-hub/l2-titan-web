@@ -29,31 +29,25 @@ function HomePage() {
             <div className='card'>
               <div className='card-images'>
                 <figure className='image is-3by2'>
-                  <img className='img' src='https://bulma.io/images/placeholders/256x256.png'>
-                    {' '}
-                  </img>
+                  <img className='img' src='https://bulma.io/images/placeholders/256x256.png' />
                 </figure>
               </div>
             </div>
           </div>
-          <div class='column is-one-quarter-desktop is-half-tablet'>
+          <div className='column is-one-quarter-desktop is-half-tablet'>
             <div className='card'>
               <div className='card-images'>
                 <figure className='image is-3by2'>
-                  <img className='img' src='https://bulma.io/images/placeholders/256x256.png'>
-                    {' '}
-                  </img>
+                  <img className='img' src='https://bulma.io/images/placeholders/256x256.png' />
                 </figure>
               </div>
             </div>
           </div>
-          <div class='column is-one-quarter-desktop is-half-tablet'>
+          <div className='column is-one-quarter-desktop is-half-tablet'>
             <div className='card'>
               <div className='card-images'>
                 <figure className='image is-3by2'>
-                  <img className='img' src='https://bulma.io/images/placeholders/256x256.png'>
-                    {' '}
-                  </img>
+                  <img className='img' src='https://bulma.io/images/placeholders/256x256.png' />
                 </figure>
               </div>
             </div>
