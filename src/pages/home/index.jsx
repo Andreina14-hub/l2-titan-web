@@ -15,33 +15,46 @@ const Footer = () => {
 }
 function HomePage() {
   return (
-
     <div className='HomePage'>
       <div className='wallpaper'></div>
       <section className='section homeSectionOne'>
-        <div className='container'></div>
+        {/* <div className='container'></div> */}
       </section>
       <section className='section homeSectionTwo'>
-        <div className='container'>
+        <div className='content is-large'>
           <h3 className='title is-3 has-text-centered'>Title 3</h3>
-
-          <div className='is-flex is-justify-content-space-evenly'>
-            <div className='mx-5'>
-              <ImageCard />
+        </div>
+        <div class='columns is-multiline is-align-content-center'>
+          <div class='column is-one-quarter-desktop is-half-tablet'>
+            <div className='card'>
+              <div className='card-images'>
+                <figure className='image is-3by2'>
+                <img src="https://bulma.io/images/placeholders/256x256.png">
+                </figure>
+              </div>
             </div>
-            <div className='mx-5'>
-              <ImageCard />
+          </div>
+          <div class='column is-one-quarter-desktop is-half-tablet'>
+            <div className='card'>
+              <div className='card-images'>
+                <figure className='image is-3by2'>
+                <img src="https://bulma.io/images/placeholders/256x256.png">
+                </figure>
+              </div>
             </div>
-            <div className='mx-5'>
-              <ImageCard />
-            </div>
-            <div className='mx-5'>
-              <ImageCard />
+          </div>
+          <div class='column is-one-quarter-desktop is-half-tablet'>
+            <div className='card'>
+              <div className='card-images'>
+                <figure className='image is-3by2'>
+                <img src="https://bulma.io/images/placeholders/256x256.png">
+                </figure>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
+      
       <Footer />
     </div>
   )
