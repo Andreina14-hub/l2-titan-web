@@ -16,7 +16,9 @@ const Footer = () => {
 function HomePage() {
   return (
     <div className='HomePage'>
-      <div className='wallpaper'></div>
+      <div className='.hero.is-fullheight.is-primary.has-background
+  img.hero-background src="/imgs/fondo1.jpg" alt="leneage"
+  .hero-body'></div>
       <section className='section homeSectionOne'>
         {/* <div className='container'></div> */}
       </section>
