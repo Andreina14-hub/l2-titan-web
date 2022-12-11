@@ -7,14 +7,3 @@ body {
 overflow-x: hidden;
 }
 
-.wallpaper{
-background-image: url('./../imgs/fondo1.jpg');
-background-position: center;
-background-size: cover;
-position:fixed;
-display: block;
-height: 100vh;
-width: 100vw;
-background-repeat: no-repeat;
-}
-
