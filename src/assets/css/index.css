@@ -6,4 +6,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 overflow-x: hidden;
 }
-
+.has-background {
+    position: relative;
+    overflow:fixed;
+   }
+  .background
+  {
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+  }
